@@ -1,0 +1,496 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout 
+  title="OmarVellouis - Digital Marketing Consultant | Shopee Ads, TikTok Ads & Meta Ads"
+  description="Specialized digital marketing consultant with 4+ years experience managing large-scale campaigns. Expert in Shopee GMV Max, CPAS, TikTok Ads & Meta Ads."
+>
+  <Header />
+  
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Scale Your E-Commerce Business<br/>
+            with <span class="highlight">Data-Driven Frameworks</span>
+          </h1>
+          <p class="hero-description">
+            Digital Marketing Consultant specializing in Shopee Ads (GMV Max, CPAS), 
+            TikTok Ads & Meta Ads. Proven track record managing campaigns across FMCG, 
+            fashion & skincare verticals with 4+ years of experience.
+          </p>
+          <div class="hero-cta">
+            <a href="/konsultasi" class="btn btn-primary">
+              Konsultasi Sekarang - Rp750K
+            </a>
+            <a href="/case-studies" class="btn btn-secondary">
+              Lihat Case Studies
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-value">Rp2.8M+</div>
+              <div class="stat-label">GMV Dikelola</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">30%→10%</div>
+              <div class="stat-label">Marketing Cost Reduction</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">4+ Tahun</div>
+              <div class="stat-label">Industry Experience</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+      <div class="container">
+        <h2 class="section-title">Layanan Utama</h2>
+        <p class="section-subtitle">
+          Solusi digital marketing yang disesuaikan dengan kebutuhan bisnis Anda
+        </p>
+        
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🎯</div>
+            <h3 class="service-title">Konsultasi Digital Ads</h3>
+            <p class="service-description">
+              One-on-one consultation untuk audit campaign, strategy review, 
+              dan optimization roadmap.
+            </p>
+            <ul class="service-features">
+              <li>Campaign audit & diagnosis</li>
+              <li>Custom optimization roadmap</li>
+              <li>Framework implementation guide</li>
+            </ul>
+            <a href="/konsultasi" class="service-link">
+              Mulai Rp750K →
+            </a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">📊</div>
+            <h3 class="service-title">GMV Max Framework</h3>
+            <p class="service-description">
+              Proprietary framework untuk maximize GMV di Shopee & TikTok 
+              dengan delivering rate optimization.
+            </p>
+            <ul class="service-features">
+              <li>Setup, Management & Troubleshoot SOP</li>
+              <li>Video contraction diagnosis</li>
+              <li>Predictive GMV modeling</li>
+            </ul>
+            <a href="/frameworks" class="service-link">
+              Pelajari Framework →
+            </a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🚀</div>
+            <h3 class="service-title">CPAS P.E.R.C Framework</h3>
+            <p class="service-description">
+              Systematic approach untuk scale CPAS campaigns dengan 
+              performance-based optimization.
+            </p>
+            <ul class="service-features">
+              <li>Performance tracking matrix</li>
+              <li>Efficiency optimization playbook</li>
+              <li>ROI protection strategies</li>
+            </ul>
+            <a href="/frameworks#cpas" class="service-link">
+              Lihat Detail →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools">
+      <div class="container">
+        <h2 class="section-title">Free Tools</h2>
+        <p class="section-subtitle">
+          Tools yang saya gunakan untuk analyze dan optimize campaigns
+        </p>
+        
+        <div class="tools-grid">
+          <div class="tool-card">
+            <h3 class="tool-title">ROAS Compass</h3>
+            <p class="tool-description">
+              Interactive calculator untuk simulasi ROAS scenario 
+              dan profitability analysis.
+            </p>
+            <a href="/tools/roas-compass" class="btn btn-secondary btn-sm">
+              Try Tool
+            </a>
+          </div>
+
+          <div class="tool-card">
+            <h3 class="tool-title">Roadmap Calculator</h3>
+            <p class="tool-description">
+              Lead magnet calculator untuk build custom digital marketing roadmap.
+            </p>
+            <a href="/tools/roadmap-calculator" class="btn btn-secondary btn-sm">
+              Try Tool
+            </a>
+          </div>
+
+          <div class="tool-card">
+            <h3 class="tool-title">BCG Matrix Analyzer</h3>
+            <p class="tool-description">
+              SKU performance analysis dengan automated optimization advisory.
+            </p>
+            <a href="/tools/bcg-matrix" class="btn btn-secondary btn-sm">
+              Try Tool
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-card">
+          <h2 class="cta-title">
+            Ready to Scale Your Digital Advertising?
+          </h2>
+          <p class="cta-description">
+            Book konsultasi untuk audit campaign Anda dan dapatkan 
+            actionable optimization roadmap.
+          </p>
+          <a href="/konsultasi" class="btn btn-primary btn-lg">
+            Book Konsultasi - Rp750K
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <Footer />
+</BaseLayout>
+
+<style>
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 100px 20px 80px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
+  }
+
+  .hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: var(--color-text);
+  }
+
+  .highlight {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--color-text-light);
+    margin-bottom: 32px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+  }
+
+  .hero-stats {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    padding-top: 40px;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-value {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--color-primary);
+    margin-bottom: 4px;
+  }
+
+  .stat-label {
+    font-size: 14px;
+    color: var(--color-text-light);
+  }
+
+  /* Services Section */
+  .services {
+    padding: 100px 20px;
+  }
+
+  .section-title {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .section-subtitle {
+    font-size: 18px;
+    color: var(--color-text-light);
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+
+  .service-card {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 32px;
+    transition: all 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--color-primary);
+  }
+
+  .service-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  .service-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .service-description {
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .service-features {
+    list-style: none;
+    margin-bottom: 24px;
+  }
+
+  .service-features li {
+    padding-left: 24px;
+    position: relative;
+    margin-bottom: 8px;
+    color: var(--color-text-light);
+    font-size: 14px;
+  }
+
+  .service-features li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+
+  .service-link {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  /* Tools Section */
+  .tools {
+    padding: 100px 20px;
+    background: var(--color-background-alt);
+  }
+
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .tool-card {
+    background: white;
+    border-radius: var(--radius-md);
+    padding: 32px;
+    border: 1px solid var(--color-border);
+  }
+
+  .tool-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .tool-description {
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  /* CTA Section */
+  .cta-section {
+    padding: 100px 20px;
+  }
+
+  .cta-card {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    border-radius: var(--radius-lg);
+    padding: 60px 40px;
+    text-align: center;
+    color: white;
+  }
+
+  .cta-title {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: white;
+  }
+
+  .cta-description {
+    font-size: 18px;
+    margin-bottom: 32px;
+    opacity: 0.95;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+  }
+
+  .btn-primary {
+    background: var(--color-primary);
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .btn-secondary {
+    background: white;
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  .btn-lg {
+    padding: 18px 36px;
+    font-size: 16px;
+  }
+
+  .btn-sm {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* Responsive */
+  @media (max-width: 968px) {
+    .hero-title {
+      font-size: 42px;
+    }
+
+    .services-grid,
+    .tools-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-stats {
+      gap: 32px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hero {
+      padding: 60px 20px 40px;
+    }
+
+    .hero-title {
+      font-size: 32px;
+    }
+
+    .hero-description {
+      font-size: 16px;
+    }
+
+    .hero-cta {
+      flex-direction: column;
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    .hero-stats {
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .section-title {
+      font-size: 32px;
+    }
+
+    .cta-title {
+      font-size: 28px;
+    }
+  }
+</style>

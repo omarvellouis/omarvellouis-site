@@ -1,0 +1,172 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h3 class="footer-title">OmarVellouis</h3>
+        <p class="footer-description">
+          Digital Marketing Consultant specializing in Shopee Ads, TikTok Ads & Meta Ads.
+          Helping brands scale profitably with data-driven frameworks.
+        </p>
+      </div>
+      
+      <div class="footer-column">
+        <h4 class="column-title">Services</h4>
+        <ul class="footer-links">
+          <li><a href="/konsultasi">Konsultasi Digital Ads</a></li>
+          <li><a href="/frameworks">GMV Max Framework</a></li>
+          <li><a href="/frameworks#cpas">CPAS P.E.R.C Framework</a></li>
+          <li><a href="/tools">ROAS Compass Tool</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4 class="column-title">Resources</h4>
+        <ul class="footer-links">
+          <li><a href="/case-studies">Case Studies</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/tools">Free Tools</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4 class="column-title">Connect</h4>
+        <ul class="footer-links">
+          <li><a href="https://instagram.com/omarvellouis" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://threads.net/@omarvellouis" target="_blank" rel="noopener">Threads</a></li>
+          <li><a href="https://linkedin.com/in/omarvellouis" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:contact@omarvellouis.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p class="copyright">© {currentYear} OmarVellouis. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--color-text);
+    color: #ffffff;
+    padding: 60px 20px 30px;
+    margin-top: 100px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    background: linear-gradient(135deg, var(--color-primary) 0%, #4ade80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .footer-description {
+    color: #9ca3af;
+    line-height: 1.7;
+    max-width: 320px;
+  }
+  
+  .column-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 12px;
+  }
+  
+  .footer-links a {
+    color: #9ca3af;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    color: var(--color-primary);
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .copyright {
+    color: #9ca3af;
+    font-size: 14px;
+  }
+  
+  .footer-bottom-links {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .footer-bottom-links a {
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-bottom-links a:hover {
+    color: var(--color-primary);
+  }
+  
+  @media (max-width: 968px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .footer {
+      padding: 40px 20px 20px;
+    }
+    
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    
+    .footer-bottom {
+      flex-direction: column;
+      gap: 16px;
+      align-items: flex-start;
+    }
+  }
+</style>
