@@ -1,0 +1,237 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const frameworkURL = "https://omarvellouis.com/fwgmvmax";
+---
+
+<BaseLayout 
+  title="GMV Max Framework - Shopee Ads Optimization System | omarvellouis"
+  description="Complete GMV Max Framework for Shopee Ads optimization. Setup, management, troubleshooting SOP and video contraction diagnosis."
+>
+  <Header />
+  
+  <main>
+    <section class="framework-hero">
+      <div class="container">
+        <span class="badge">Framework</span>
+        <h1 class="hero-title">
+          GMV Max<br/>
+          <span class="highlight">Framework</span>
+        </h1>
+        <p class="hero-description">
+          Proprietary framework for maximizing GMV on Shopee & TikTok 
+          with delivering rate optimization and predictive modeling.
+        </p>
+        
+        <a 
+          href={frameworkURL}
+          class="btn btn-primary btn-lg"
+          onclick="if(typeof fbq !== 'undefined') fbq('track', 'ViewContent', {content_name: 'GMV Max Framework'});"
+        >
+          Access Framework Documentation
+        </a>
+
+        <div class="framework-overview">
+          <h3>Framework Components:</h3>
+          
+          <div class="component">
+            <h4>📋 Setup & Management SOP</h4>
+            <p>
+              Step-by-step standard operating procedures for GMV Max campaign setup, 
+              daily management tasks, and optimization workflows.
+            </p>
+          </div>
+
+          <div class="component">
+            <h4>🎥 Video Contraction Diagnosis</h4>
+            <p>
+              Systematic framework for analyzing video performance contraction, 
+              identifying drop-off points, and optimizing creative for delivery.
+            </p>
+          </div>
+
+          <div class="component">
+            <h4>📊 Delivering Rate Optimization</h4>
+            <p>
+              Advanced strategies for improving delivering rate through audience 
+              targeting, creative optimization, and budget pacing.
+            </p>
+          </div>
+
+          <div class="component">
+            <h4>🔮 Predictive GMV Modeling</h4>
+            <p>
+              Data-driven modeling system to forecast GMV performance, predict 
+              campaign outcomes, and optimize budget allocation.
+            </p>
+          </div>
+
+          <div class="component">
+            <h4>⚠️ Troubleshooting Playbook</h4>
+            <p>
+              Common issues, root cause diagnosis, and proven solutions for 
+              GMV Max campaign problems and performance degradation.
+            </p>
+          </div>
+
+          <div class="use-cases">
+            <h4>Proven Results Across:</h4>
+            <ul>
+              <li>✅ FMCG brands (Rp500 juta+ monthly GMV)</li>
+              <li>✅ Fashion & apparel (30%+ delivering rate improvement)</li>
+              <li>✅ Skincare (2.5x ROAS increase)</li>
+              <li>✅ Electronics (Marketing cost: 30% → 10%)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <Footer />
+</BaseLayout>
+
+<style>
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .framework-hero {
+    padding: 80px 20px 100px;
+    text-align: center;
+  }
+
+  .badge {
+    display: inline-block;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    border: 1px solid var(--color-primary);
+  }
+
+  .hero-title {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 24px;
+  }
+
+  .highlight {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-description {
+    font-size: 18px;
+    color: var(--color-text-light);
+    line-height: 1.7;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 18px 36px;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background: var(--color-primary);
+    color: white;
+  }
+
+  .btn:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .framework-overview {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 48px;
+    margin-top: 60px;
+    text-align: left;
+  }
+
+  .framework-overview > h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .component {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .component:last-of-type {
+    border-bottom: none;
+  }
+
+  .component h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--color-text);
+  }
+
+  .component p {
+    color: var(--color-text-light);
+    line-height: 1.7;
+    font-size: 15px;
+  }
+
+  .use-cases {
+    background: var(--color-background-alt);
+    padding: 32px;
+    border-radius: var(--radius-md);
+    margin-top: 32px;
+  }
+
+  .use-cases h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .use-cases ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .use-cases li {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+    color: var(--color-text);
+  }
+
+  @media (max-width: 640px) {
+    .hero-title {
+      font-size: 36px;
+    }
+
+    .framework-overview {
+      padding: 24px;
+    }
+  }
+</style>
